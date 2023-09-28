@@ -25,10 +25,9 @@ int main(){
                 {
                     if (i == a-1) {
                         cout << '|' << string(b, '_') << '|' << '/' << endl;
-                    }else {
+                    } else {
                         cout << '|' << string(b, ' ') << '|' << string(f-i, ' ') << '/' << endl;
                     }
-                    
                 }
             }
         }
