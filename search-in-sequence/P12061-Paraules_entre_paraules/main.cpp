@@ -2,6 +2,8 @@
 #include <string>
 using namespace std;
 
+
+//ESTA MALAMENT RETORNA LA POSICIÓ O ALGO RARO
 string num_paraules(string sentence) {
     if (sentence.find("principi") != sentence.npos && sentence.find("final") != sentence.npos) {
         int principi = sentence.find("principi"), final = sentence.find("final");
